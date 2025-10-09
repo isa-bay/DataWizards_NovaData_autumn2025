@@ -1,4 +1,3 @@
-#Данная программа является калькулятором
 def process_numbers(numbers):
     total = sum(numbers)
     avg = total / len(numbers)
@@ -30,7 +29,7 @@ def main():
 
     results = process_numbers(numbers)
 
-    print("\n📊 Результаты вычислений:")
+    print("\n Результаты вычислений:")
     print(f"Сумма чисел: {results['sum']}")
     print(f"Среднее значение: {results['average']}")
     print(f"Минимум: {results['min']}")

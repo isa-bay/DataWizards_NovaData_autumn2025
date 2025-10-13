@@ -1,9 +1,8 @@
 import pandas as pd
 
-
 data = pd.read_csv("operations.csv")
 
-print(data["operation"].value_count())
+print(data["operation"].value_counts())
 
 print(data.groupby("operation")["duration_ms"].mean().round(2))
 
